@@ -1,7 +1,7 @@
 import randomstuff
 import os
 from dotenv import load_dotenv
-
+os.system('pip install python-dotenv')
 load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
